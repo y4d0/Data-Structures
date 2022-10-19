@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node
+{
+  int data;
+  struct node *link;
+};
+
+struct node *start;
+
+int main() {
+    type def struct node{
+        int data ;
+        struct node *link;
+        };
+        
+ struct node *start, *p , *q ;
+ start = (struct node *)malloc(size of(node));
+ printf("Enter the first data ");
+ scanf("%d" ,&x);
+ start -> data=x;
+ start -> link=NULL;
+ start;
+ 
+ do{
+     printf("Enter the next data");
+     scanf("%d", &x);
+     q = (struct node *)malloc(size of(node));
+     q -> data = x;
+     q -> link = NULL;
+     p -> link = q;
+     p = q;
+     printf("DO you want to continue (YES / NO)");
+     scanf("%c", &ch);
+     
+     while(ch!='NO');
+     p=start;
+     while(p=NULL){
+      printf("%d", p-> data);
+      p = p-> link;
+     }
+         
+    }
+}
